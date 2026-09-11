@@ -6,7 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/pcb_traces"
+    android:tileMode="repeat">
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/parameters_scroll"

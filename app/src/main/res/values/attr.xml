@@ -8,4 +8,7 @@
         <attr name="textTitle" format="string" />
         <attr name="textSizeTitle" format="dimension" />
     </declare-styleable>
+    <declare-styleable name="Selector">
+        <attr name="elements" format="reference" />
+    </declare-styleable>
 </resources>
